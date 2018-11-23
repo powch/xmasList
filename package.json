@@ -1,0 +1,13 @@
+{
+  "name": "xmasList",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/powch/xmasList.git",
+  "author": "Chace Powell <cpcpowell8@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.13"
+  }
+}
