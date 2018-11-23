@@ -1,7 +1,7 @@
-import { Router } from 'express';
-import listRoutes from './lists';
+const router = require('express').Router();
+const listRoutes = require('./lists');
 
 // Book routes
-Router.use("/lists", listRoutes);
+router.use("/lists", listRoutes);
 
-module.exports = Router;
+module.exports = router;

@@ -1,2 +1,4 @@
-export * from './Person';
-export * from './Item';
+module.exports = {
+  Person: require('./Person'),
+  Item: require('./Item')
+}
